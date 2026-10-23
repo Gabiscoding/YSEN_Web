@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/logo-mark.svg" type="image/svg+xml">
+    <title>skills — ysen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="sheet">
+    <div class="viewport">
+        <main class="home">
+            <div class="nav-frame">
+            <header class="nav">
+                <a class="brand" href="index.html">
+                    <img src="assets/logo-mark.svg" alt="" width="41.0669" height="43.329">
+                    <span>ysen</span>
+                </a>
+                <nav class="menu" aria-label="Primary">
+                    <div class="links">
+                        <a href="education.html">education</a>
+                        <a class="is-current" href="skills.html">skills</a>
+                        <a href="work.html">work</a>
+                        <a href="about.html">about</a>
+                    </div>
+                    <img class="divider" src="assets/nav-divider.svg" alt="" width="27" height="1">
+                    <div class="socials" aria-label="Figma, GitHub, LinkedIn, and resume">
+                        <a class="icon-link" href="https://www.figma.com/@gabidesigns" target="_blank" rel="noopener"><img src="assets/nav-figma.svg" alt="Figma"></a>
+                        <a class="icon-link" href="https://github.com/Gabiscoding" target="_blank" rel="noopener"><img src="assets/nav-github.svg" alt="GitHub"></a>
+                        <a class="icon-link" href="https://www.linkedin.com/in/yssa-gabrielle-magpili/" target="_blank" rel="noopener"><img src="assets/nav-linkedin.svg" alt="LinkedIn"></a>
+                        <a class="icon-link" href="assets/Magpili_Resume_new.pdf" download="Magpili_Resume_new.pdf" target="_blank" rel="noopener"><img src="assets/nav-resume.svg" alt="Resume"></a>
+                    </div>
+                    <img class="divider" src="assets/nav-divider.svg" alt="" width="27" height="1">
+                    <a class="email icon-link" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=yssagabrielle.d.magpili@gmail.com" target="_blank" rel="noopener">
+                        <img src="assets/nav-email.svg" alt="Email" width="18.3335" height="16.5">
+                    </a>
+                </nav>
+            </header>
+            </div>
+            <section class="pit">
+                <div class="pit-head">
+                    <h1>Skill pit</h1>
+                    <ul class="pit-meta">
+                        <li>physics</li>
+                        <li>drag</li>
+                        <li>matter.js 0.20</li>
+                        <li>poly-decomp 0.3</li>
+                    </ul>
+                </div>
+                <div class="pit-layout">
+                    <div class="pit-board" id="pit-board">
+                        <p class="pit-hint">drag a skill and throw it</p>
+                        <button class="pit-replay" type="button">replay</button>
+                    </div>
+                    <div class="pit-copy">
+                        <p>A rigid-body world in a box. Each shape is a skill. The concave outlines are decomposed into convex parts and simulated as one body, because a physics engine can only collide convex bodies. Drag any skill and throw it.</p>
+                        <pre class="pit-code"><code>Common.setDecomp(decomp)
+
+// concave outline -&gt; convex parts, simulated as one body
+Bodies.fromVertices(x, y, [vertices], {
+  restitution: 0.35,
+  friction: 0.15,
+  render: { fillStyle: hue },
+}, true)</code></pre>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/poly-decomp@0.3.0/build/decomp.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/matter-js@0.20.0/build/matter.min.js"></script>
+    <script src="skills.js"></script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/logo-mark.svg" type="image/svg+xml">
+    <title>ysen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="home-page">
+    <div class="viewport">
+        <div class="parallax">
+            <div class="scene">
+                <div class="layer" data-depth="back"></div>
+                <div class="layer" data-depth="mid"></div>
+                <div class="layer layer--front">
+            <p class="welcome">welcome to</p>
+            <h1 class="wordmark" id="top" aria-label="ysen">
+                <span class="lockup is-scrambling">
+                    <span class="letters letters-live" aria-hidden="true">
+                        <span class="letter letter-y">y</span>
+                        <span class="letter letter-s">s</span>
+                        <span class="letter letter-e">e</span>
+                        <span class="letter letter-n">n</span>
+                    </span>
+                </span>
+                <div class="type-frame" hidden>
+                    <span class="x-line"></span>
+                    <span class="type-label type-xlabel">x-height</span>
+                    <span class="type-label type-track">tracking <b id="track-readout">0.08em</b></span>
+                    <span class="type-size" id="size-readout">210px</span>
+                    <i data-corner="nw"></i>
+                    <i data-corner="n"></i>
+                    <i data-corner="ne"></i>
+                    <i data-corner="e"></i>
+                    <i data-corner="se"></i>
+                    <i data-corner="s"></i>
+                    <i data-corner="sw"></i>
+                    <i data-corner="w"></i>
+                </div>
+                <div class="hue-meter" hidden>
+                    <span>100%</span>
+                    <span>84%</span>
+                    <span>68%</span>
+                    <span>52%</span>
+                    <span>36%</span>
+                    <span>20%</span>
+                </div>
+            </h1>
+            <p class="hue-readout" hidden>fill: #7193ed → 20%</p>
+                </div>
+                <div class="layer" data-depth="near">
+                    <a class="capsule capsule-education" href="education.html" data-x="48" data-y="176"><span>education</span></a>
+                    <a class="capsule capsule-skills" href="skills.html" data-x="980" data-y="150"><span>skills</span></a>
+                    <a class="capsule capsule-about" href="about.html" data-x="64" data-y="748"><span>about</span></a>
+                    <a class="capsule capsule-work" href="work.html" data-x="1088" data-y="730"><span>work</span></a>
+                </div>
+            </div>
+        </div>
+        <main class="home">
+            <header class="nav">
+                <a class="brand" href="#top">
+                    <img src="assets/logo-mark.svg" alt="" width="41.0669" height="43.329">
+                    <span>ysen</span>
+                </a>
+                <nav class="menu" aria-label="Primary">
+                    <div class="links">
+                        <a href="education.html">education</a>
+                        <a href="skills.html">skills</a>
+                        <a href="work.html">work</a>
+                        <a href="about.html">about</a>
+                    </div>
+                    <img class="divider" src="assets/nav-divider.svg" alt="" width="27" height="1">
+                    <div class="socials" aria-label="Figma, GitHub, LinkedIn, and resume">
+                        <a class="icon-link" href="https://www.figma.com/@gabidesigns" target="_blank" rel="noopener"><img src="assets/nav-figma.svg" alt="Figma"></a>
+                        <a class="icon-link" href="https://github.com/Gabiscoding" target="_blank" rel="noopener"><img src="assets/nav-github.svg" alt="GitHub"></a>
+                        <a class="icon-link" href="https://www.linkedin.com/in/yssa-gabrielle-magpili/" target="_blank" rel="noopener"><img src="assets/nav-linkedin.svg" alt="LinkedIn"></a>
+                        <a class="icon-link" href="assets/Magpili_Resume_new.pdf" download="Magpili_Resume_new.pdf" target="_blank" rel="noopener"><img src="assets/nav-resume.svg" alt="Resume"></a>
+                    </div>
+                    <img class="divider" src="assets/nav-divider.svg" alt="" width="27" height="1">
+                    <a class="email icon-link" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=yssagabrielle.d.magpili@gmail.com" target="_blank" rel="noopener">
+                        <img src="assets/nav-email.svg" alt="Email" width="18.3335" height="16.5">
+                    </a>
+                </nav>
+            </header>
+            <div class="toolkit" aria-label="Toolkit">
+                <button type="button" class="tool" data-tool="logo" aria-label="Logo"><img src="assets/logo-mark.svg" alt="" width="41.0669" height="43.329"></button>
+                <button type="button" class="tool" data-tool="text" aria-label="Text"><img src="assets/icon-text.svg" alt="" width="42.25" height="42.25"></button>
+                <button type="button" class="tool" data-tool="color" aria-label="Color"><img src="assets/icon-color.svg" alt="" width="43" height="43"></button>
+                <button type="button" class="tool tool-opacity" data-tool="opacity" aria-label="Opacity"><img src="assets/icon-opacity.svg" alt="" width="32.333" height="43.1661"></button>
+            </div>
+        </main>
+        <section class="story" hidden>
+            <div class="story-hero">
+                <img class="story-bunny" src="assets/logo-mark.svg" alt="">
+                <p class="story-word" aria-label="ysen"><span class="y">y</span><span class="s">s</span><span class="e">e</span><span class="n">n</span></p>
+                <p class="story-note">I’ve taken an inspiration from figma colors and aesthetic as a developer who mainly works frontend, UI/UX, and is afraid of using just black and white.</p>
+            </div>
+            <div class="story-type">
+                <div class="story-mark">
+                    <img src="assets/logo-mark.svg" alt="">
+                    <p class="story-word story-word-sm" aria-hidden="true"><span class="y">y</span><span class="s">s</span><span class="e">e</span><span class="n">n</span></p>
+                </div>
+                <div>
+                    <h2>Sulphur Point</h2>
+                    <p>Despite adding a little whimsy, I chose to use a Sans Serif font to convey consistency, digital readability, and modern look as my main focus is technology.</p>
+                </div>
+            </div>
+            <h2 class="story-why">Why a bunny?</h2>
+            <div class="story-comments">
+                <article class="ig" style="--x: 48px; --y: 24px; --tilt: -8deg">
+                    <header><svg class="person" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="16" fill="#ececec"/><circle cx="16" cy="13" r="5" fill="#8d939c"/><path d="M7 27c1.2-5 4.4-7.5 9-7.5s7.8 2.5 9 7.5" fill="#8d939c"/></svg><strong>yncn_</strong></header>
+                    <p>baddie baddie baddie</p>
+                    <footer><span>Reply</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 13.5s-5-3.1-5-6.2A2.8 2.8 0 0 1 8 5.6a2.8 2.8 0 0 1 5 1.7c0 3.1-5 6.2-5 6.2z" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></footer>
+                </article>
+                <article class="ig" style="--x: 168px; --y: 8px; --tilt: 6deg">
+                    <header><svg class="person" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="16" fill="#ececec"/><circle cx="16" cy="13" r="5" fill="#8d939c"/><path d="M7 27c1.2-5 4.4-7.5 9-7.5s7.8 2.5 9 7.5" fill="#8d939c"/></svg><strong>redscythe_</strong></header>
+                    <p>baddie</p>
+                    <footer><span>Reply</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 13.5s-5-3.1-5-6.2A2.8 2.8 0 0 1 8 5.6a2.8 2.8 0 0 1 5 1.7c0 3.1-5 6.2-5 6.2z" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></footer>
+                </article>
+                <article class="ig" style="--x: 24px; --y: 196px; --tilt: -4deg">
+                    <header><svg class="person" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="16" fill="#ececec"/><circle cx="16" cy="13" r="5" fill="#8d939c"/><path d="M7 27c1.2-5 4.4-7.5 9-7.5s7.8 2.5 9 7.5" fill="#8d939c"/></svg><strong>a.margarettsee</strong></header>
+                    <p>Stronk, kind, listener</p>
+                    <footer><span>Reply</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 13.5s-5-3.1-5-6.2A2.8 2.8 0 0 1 8 5.6a2.8 2.8 0 0 1 5 1.7c0 3.1-5 6.2-5 6.2z" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></footer>
+                </article>
+                <article class="ig" style="--x: 360px; --y: 148px; --tilt: 2deg">
+                    <header><svg class="person" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="16" fill="#ececec"/><circle cx="16" cy="13" r="5" fill="#8d939c"/><path d="M7 27c1.2-5 4.4-7.5 9-7.5s7.8 2.5 9 7.5" fill="#8d939c"/></svg><strong>redscythe_</strong></header>
+                    <p>Super villain</p>
+                    <footer><span>Reply</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 13.5s-5-3.1-5-6.2A2.8 2.8 0 0 1 8 5.6a2.8 2.8 0 0 1 5 1.7c0 3.1-5 6.2-5 6.2z" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></footer>
+                </article>
+                <article class="ig" style="--x: 640px; --y: 120px; --tilt: 7deg">
+                    <header><svg class="person" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="16" fill="#ececec"/><circle cx="16" cy="13" r="5" fill="#8d939c"/><path d="M7 27c1.2-5 4.4-7.5 9-7.5s7.8 2.5 9 7.5" fill="#8d939c"/></svg><strong>kianavizcaya</strong></header>
+                    <p>hardworking i also gets everything she set her mind to i passionate</p>
+                    <footer><span>Reply</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 13.5s-5-3.1-5-6.2A2.8 2.8 0 0 1 8 5.6a2.8 2.8 0 0 1 5 1.7c0 3.1-5 6.2-5 6.2z" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></footer>
+                </article>
+                <img class="story-float" src="assets/logo-mark.svg" alt="">
+            </div>
+            <div class="story-copy">
+                <p>A bunny is used in a lot of myths and symbolism in different cultures.</p>
+                <p>In Chinese culture: One of the 12 zodiac signs, is believed to bring longevity but also believed to symbolize having traits such as softness and merciful.</p>
+                <p>In Japanese culture: Known to appear in the tale of Moon Rabbit where it symbolizes intuition.</p>
+                <p>In native american culture: A rabbit is known for being a joker, somewhat Malicious but for that same reason— witty.</p>
+                <p>Personal bias: I love bunnies! ~~ but additionally because I believe that they symbolize softness with a sturdy attitude. Behaviorally, bunnies are known to have an attitude. They are social creatures that are naturally curious yet cautious within their environment.</p>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
